@@ -120,3 +120,22 @@ select {
     place-items: center;
   }
 }
+
+.section-title {
+  font-size: var(--fs-600);
+  font-weight: var(--fw-bold);
+}
+
+.button {
+  color: var(--clr-neutral-100);
+  background: var(--clr-neutral-700);
+  padding: 1rem 2rem;
+  border: 0;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+  background: var(--gradient-primary);
+}
